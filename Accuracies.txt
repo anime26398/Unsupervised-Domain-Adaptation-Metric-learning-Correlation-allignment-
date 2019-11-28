@@ -1,0 +1,53 @@
+1. Train-TR1+TR2(10 images of each class), Test-TS2:
+
+	a. coral+contrastive loss:
+		i. Output manifold dim size:
+			-> 5 : Tr-79.47 Te-71.45
+			-> 10 : Tr-79.47 Te-69.70
+			-> 16 : Tr-83.49 Te-74.96
+			-> 32 : Tr-85.91 Te-76.08
+			-> 64 : Tr-88.41 Te-72.25
+
+	b. Logcoral+contrastive loss:
+		i. Output manifold dim size:
+			-> 5 : Tr-79.15 Te-66.51
+			-> 10 : Tr-71.18 Te-64.75 
+			-> 16 : Tr-83.25 Te-70.02
+			-> 32 : Tr-83.49 Te-76.24
+			-> 64 : Tr-81.88 Te-70.65
+			
+2. Train-TR2+TR1(10 images of each class), Test-TS1:
+
+	a. coral+contrastive loss:
+		i. Output manifold dim size:
+			-> 5 : Tr-85.77 Te-63.58
+			-> 10 : Tr-84.40 Te-62.38
+			-> 16 : Tr-85.62 Te-60.54
+			-> 32 : Tr-90.54 Te-69.73
+			-> 64 : Tr-92.18 Te-68.77
+
+	b. Logcoral+contrastive loss:
+		i. Output manifold dim size:
+			-> 5 : Tr-79.21 Te-60.54
+			-> 10 : Tr-86.38 Te-67.09
+			-> 16 : Tr-88.13 Te-65.02
+			-> 32 : Tr-90.27 Te-71.09
+			-> 64 : Tr-89.55 Te-70.13
+			
+
+
+3. Train PaviaCentre Test PaviaU:
+
+	a. coral+contrastive loss:
+		-> 32 : Tr-99.27 Te-47.72
+
+	b. Logcoral+contrastive loss:
+`		-> 32 : Tr- Te-
+
+3. Train PaviaCentre Test PaviaU:
+
+	a. coral+contrastive loss:
+		-> 32 : Tr-94.32 Te-42.78
+
+	b. Logcoral+contrastive loss:
+`		-> 32 : Tr- Te-

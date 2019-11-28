@@ -1,0 +1,4 @@
+model_checkpoint_path: "model_tensorflow_siamese.ckpt"
+all_model_checkpoint_paths: "../home/model_tensorflow_siamese.ckpt"
+all_model_checkpoint_paths: "/tmp/model_tensorflow_siamese.ckpt"
+all_model_checkpoint_paths: "model_tensorflow_siamese.ckpt"

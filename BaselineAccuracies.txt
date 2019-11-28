@@ -1,0 +1,15 @@
+1. Train TR1, Test TS2 :
+	a. TCA : 69.8884
+	b. GFK : 72.89
+	c. CORAL : 54.5455
+	d. SA : 72.8868
+	e. STL : 75.28
+	e. BDA : 62.52
+
+2. Train TR2, Test TS1 :
+	a. TCA : 61.00
+	b. GFK : 65.50
+	c. CORAL : 47.3642
+	d. SA : 68.52
+	e. STL : 70.20
+	e. BDA : 50.72
